@@ -1,0 +1,143 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-light-cyan: hsl(193, 38%, 86%);
+    --clr-neon-green: hsl(150, 100%, 66%);
+    --clr-dark-grayish-blue: hsl(217, 19%, 24%);
+    --clr-grayish-blue: hsl(217, 19%, 38%);
+    --bg-clr-dark-blue: hsl(218, 23%, 16%);
+
+    --clr-attribution : hsl(228, 45%, 44%);
+
+    --fs-quote: 1.75rem;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: 'Manrope', sans-serif;
+    background-color: var(--bg-clr-dark-blue);
+    color: var(--clr-light-cyan);
+}
+
+.main {
+	height: 100dvh;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 0.5rem;
+	flex-direction: column;
+}
+.main__advice-container {
+	flex-grow: 1;
+
+	display: flex;
+	align-items: center;
+}
+
+.advice-card {
+    padding: 3.25rem 3.125rem 4.5rem;
+    border-radius: 0.9375rem;
+
+    position: relative;
+
+    text-align: center;
+    background-color: var(--clr-dark-grayish-blue);
+}
+
+.advice-card__advice-id {
+    letter-spacing: 3.65px;
+    font-size: 0.6875rem;
+    color: var(--clr-neon-green);
+}
+
+.advice-content {
+    width: 27.75rem;
+    margin: 2.25rem 0;
+
+    font-weight: 800;
+    font-size: var(--fs-quote);
+    animation: slideUp 3s;
+}
+
+.advice-content::before {
+    content: open-quote;
+}
+
+.advice-content::after {
+    content: close-quote;
+}
+
+.mobile-patter-divider {
+	display: none;
+}
+
+.advice-card__dice {
+    padding: 1.25rem;
+    border-radius: 50%;
+
+    position: absolute;
+    bottom: -2rem;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background-color: var(--clr-neon-green);
+    cursor: pointer;
+}
+
+.advice-card__dice:hover {
+    box-shadow: 0 0 3.125rem var(--clr-neon-green);
+}
+
+.advice-card__dice svg {
+    display: block;
+}
+
+/* frontend mentor styles */
+.main__attribution {
+    font-size: 0.6875rem;
+}
+
+.main__attribution a {
+    color: var(--clr-attribution);
+}
+/* end of frontend mentor styles */
+
+@keyframes slideUp {
+	from {
+		opacity: 0;
+		transform: translateY(50px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+@media screen and (max-width: 550px) {
+
+	.main {
+        gap: 3.5rem;
+    }
+
+    .advice-card {
+        padding: 2.25rem 1.5rem 4.5rem;
+    }
+
+    .advice-content {
+        width: 18.4375rem;
+    }
+
+    .mobile-patter-divider {
+        display: block;
+    }
+
+    .desktop-patter-divider {
+        display: none;
+    }
+}
