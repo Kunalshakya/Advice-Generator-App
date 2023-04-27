@@ -15,8 +15,6 @@ document.querySelector(".advice-card__dice").addEventListener("click", () => {
 			pTag.classList.add('advice-content');
 			pTag.textContent = adviceData.advice;
 			let adviceSectionElem = document.querySelector('.adivce-card__advise-block');
-			console.log(adviceSectionElem)
 			adviceSectionElem.appendChild(pTag);
 		});
-
 });
