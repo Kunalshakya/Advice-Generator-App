@@ -1,4 +1,4 @@
-# Frontend Mentor - Advice generator app solution
+# Advice generator app solution
 
 This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -7,6 +7,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+- [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -35,6 +36,11 @@ Users should be able to:
 
 ![](/screenshorts/Screenshot%20(27).png)
 
+## Links
+
+- Solution URL: [Explore the GitHub Repository](https://github.com/Kunalshakya/Advice-Generator-App)
+- Live Site URL: [ View the live website](https://kunalshakya.github.io/Advice-Generator-App/)
+
 
 ## My process
 
@@ -54,7 +60,9 @@ Here are some things I have learned specifically from completing the advice gene
 
 ## Author
 
-- GitHub - [Kunal Shakya](https://github.com/Kunalshakya)
+- GitHub - [@Kunalshakay](https://github.com/Kunalshakya)
+- LinkedIn - [@kunal-shakya](https://www.linkedin.com/in/kunal-shakya-59323a259/)
+- Frontend Mentor - [@Kunalshakya](https://www.frontendmentor.io/profile/Kunalshakya)
 
 ## Acknowledgments
 
